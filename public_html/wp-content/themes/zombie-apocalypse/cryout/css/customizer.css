@@ -1,0 +1,38 @@
+
+#customize-theme-controls .customize-control + .customize-control { margin-top: 5px; }
+.wp-full-overlay .collapse-sidebar.cryout-expand-sidebar { left: initial; right: 0; margin-left: 0; margin-right: 15px; position: absolute; }
+.wp-full-overlay .cryout-expand-sidebar  .collapse-sidebar-label { left: initial; right: 100%; margin-left: 0; margin-right: 10px; }
+.wp-full-overlay .cryout-expand-sidebar  .collapse-sidebar-arrow::before { transform: rotate(180deg); }
+
+.wp-full-overlay.cryout-maximized .cryout-expand-sidebar  .collapse-sidebar-arrow::before { transform: initial; }
+
+.wp-full-overlay.cryout-maximized {
+	margin-left: 40%;
+}
+
+.wp-full-overlay.cryout-maximized .wp-full-overlay-sidebar {
+	margin-left: 0 !important;
+	width: 40% !important;
+}
+
+/*.cryout-maximized .customize-control-title { display: inline-block; margin-right: 10px; }
+.cryout-maximized .customize-control-title + .customize-control-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+.cryout-maximized .customize-control-title + input, .cryout-maximized .customize-control-title + select { clear: left; } */
+
+.customize-control-description { margin-top: 5px; }
+
+.customize-control input[type="range"] { width: 98%; }
+
+.customize-control input[type="text"], 
+.customize-control input[type="password"], 
+.customize-control input[type="email"], 
+.customize-control input[type="search"], 
+.customize-control input[type="url"] { }
+
+.customize-control input[type="number"] { max-width: 100px; }
+.customize-control input[type="tel"] { max-width: 300px; }
+
+

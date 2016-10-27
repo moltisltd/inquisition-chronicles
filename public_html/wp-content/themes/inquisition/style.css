@@ -1,0 +1,26 @@
+/*
+ Theme Name:   Inquisition Chronicles
+ Theme URI:    http://www.inquisition-chronicles.co.uk/
+ Description:  Inquisition Chronicles Theme
+ Author:       Yoda
+ Author URI:   http://moltis.co.uk
+ Template:     responsive
+ Version:      0.1.2
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  inquisition-chronicles
+*/
+
+body {background:url('images/topper.jpg') center top no-repeat, url('images/back.jpg');}
+
+.site-name a {color:#fff;}
+#header {background:url('images/inquisition-logo-white-sm.png') no-repeat right top;}
+#logo {min-height:100px;}
+
+@import url(https://fonts.googleapis.com/css?family=Meddon|Fondamento:400,400italic);
+h1,h2,h3,h4,h5,h6 {font-family:'Fondamento',cursive;}
+.site-name {font-family:Meddon,cursive;}
+.featured-title {font-size:42px;}
+.featured-subtitle {font-size:21px;}
+.main-nav {font-family:Fondamento,cursive;}
