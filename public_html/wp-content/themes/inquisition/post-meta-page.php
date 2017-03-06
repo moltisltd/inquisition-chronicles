@@ -21,7 +21,7 @@ if ( !defined( 'ABSPATH' ) ) {
 ?>
 	<?php if(get_post_type() == 'page' && is_search()): ?>
 		<h1 class="entry-title post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h1>
-	<?php else: ?>
+	<?php elseif(get_field('show_title')): ?>
 		<h1 class="entry-title post-title"><?php the_title(); ?></h1>
 	<?php endif; ?>
 
